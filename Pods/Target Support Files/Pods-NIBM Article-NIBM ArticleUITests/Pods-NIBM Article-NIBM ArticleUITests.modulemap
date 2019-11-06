@@ -1,0 +1,6 @@
+framework module Pods_NIBM_Article_NIBM_ArticleUITests {
+  umbrella header "Pods-NIBM Article-NIBM ArticleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
