@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		C64512AE2372B6EB003E6036 /* NIBM_ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64512AD2372B6EB003E6036 /* NIBM_ArticleTests.swift */; };
 		C64512B92372B6EB003E6036 /* NIBM_ArticleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64512B82372B6EB003E6036 /* NIBM_ArticleUITests.swift */; };
 		C64512D32372B7CD003E6036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C64512D22372B7CD003E6036 /* GoogleService-Info.plist */; };
+		C64512D82372C697003E6036 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64512D72372C697003E6036 /* Login.storyboard */; };
+		C651BC242372CF3E00EC2A6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC232372CF3E00EC2A6A /* LoginViewController.swift */; };
+		C651BC262372D10600EC2A6A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC252372D10600EC2A6A /* RegisterViewController.swift */; };
 		C95757442A3531B5541DC49B /* Pods_NIBM_Article.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95BA0C98CA42CD868B4ADF4 /* Pods_NIBM_Article.framework */; };
 		F8E9AAA2117422FF669D1284 /* Pods_NIBM_Article_NIBM_ArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3295CD391E9FC35F41A8B5F1 /* Pods_NIBM_Article_NIBM_ArticleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		C64512B82372B6EB003E6036 /* NIBM_ArticleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ArticleUITests.swift; sourceTree = "<group>"; };
 		C64512BA2372B6EB003E6036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C64512D22372B7CD003E6036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C64512D72372C697003E6036 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C651BC232372CF3E00EC2A6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C651BC252372D10600EC2A6A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CC76F2A8DF1D6D67AC92E596 /* Pods-NIBM ArticleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ArticleTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ArticleTests/Pods-NIBM ArticleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DA083EFCD0CDCD9AEFE9B8 /* Pods_NIBM_ArticleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ArticleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95BA0C98CA42CD868B4ADF4 /* Pods_NIBM_Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,7 @@
 		C64512972372B6E3003E6036 /* NIBM Article */ = {
 			isa = PBXGroup;
 			children = (
+				C64512D62372C680003E6036 /* Login */,
 				C64512982372B6E4003E6036 /* AppDelegate.swift */,
 				C645129A2372B6E4003E6036 /* ViewController.swift */,
 				C645129C2372B6E4003E6036 /* Main.storyboard */,
@@ -155,6 +162,16 @@
 			path = "NIBM ArticleUITests";
 			sourceTree = "<group>";
 		};
+		C64512D62372C680003E6036 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C64512D72372C697003E6036 /* Login.storyboard */,
+				C651BC232372CF3E00EC2A6A /* LoginViewController.swift */,
+				C651BC252372D10600EC2A6A /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		DF293D9E6FAD89202FA02590 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +182,6 @@
 				CC76F2A8DF1D6D67AC92E596 /* Pods-NIBM ArticleTests.debug.xcconfig */,
 				EDC71B77ABD50F8B8EA4EAF6 /* Pods-NIBM ArticleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +297,7 @@
 				C64512A32372B6EB003E6036 /* LaunchScreen.storyboard in Resources */,
 				C64512A02372B6EB003E6036 /* Assets.xcassets in Resources */,
 				C645129E2372B6E4003E6036 /* Main.storyboard in Resources */,
+				C64512D82372C697003E6036 /* Login.storyboard in Resources */,
 				C64512D32372B7CD003E6036 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,8 +426,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C651BC242372CF3E00EC2A6A /* LoginViewController.swift in Sources */,
 				C645129B2372B6E4003E6036 /* ViewController.swift in Sources */,
 				C64512992372B6E4003E6036 /* AppDelegate.swift in Sources */,
+				C651BC262372D10600EC2A6A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
