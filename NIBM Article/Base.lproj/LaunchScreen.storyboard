@@ -18,40 +18,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="9Dl-OX-3jR">
-                                <rect key="frame" x="87" y="150" width="240" height="128"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Kns-DJ-1Kq">
+                                <rect key="frame" x="197" y="443" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="iLb-yK-bC7">
+                                <rect key="frame" x="57" y="210" width="300" height="101"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="CJH-jh-ljx"/>
-                                    <constraint firstAttribute="height" constant="128" id="gPM-DI-BTq"/>
+                                    <constraint firstAttribute="width" constant="300" id="nri-jY-RP9"/>
+                                    <constraint firstAttribute="height" constant="101" id="yG8-zJ-n33"/>
                                 </constraints>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="nyk-mw-7bO">
-                                <rect key="frame" x="197" y="347" width="20" height="20"/>
-                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="NIBM ARTICLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYE-7r-8gR">
-                                <rect key="frame" x="116" y="438" width="182.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NIBM ARTICLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mz8-dg-ane">
+                                <rect key="frame" x="100" y="558" width="214.5" height="39.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MYE-7r-8gR" secondAttribute="bottom" constant="403" id="Awu-fS-k0V"/>
-                            <constraint firstItem="9Dl-OX-3jR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EaI-r4-N1F"/>
-                            <constraint firstItem="MYE-7r-8gR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hdu-jT-YnH"/>
-                            <constraint firstItem="nyk-mw-7bO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="N3a-Dl-K61"/>
-                            <constraint firstItem="9Dl-OX-3jR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="i8p-Y9-2ur"/>
-                            <constraint firstItem="MYE-7r-8gR" firstAttribute="top" secondItem="nyk-mw-7bO" secondAttribute="bottom" constant="71" id="sjU-An-l3Y"/>
-                            <constraint firstItem="nyk-mw-7bO" firstAttribute="top" secondItem="9Dl-OX-3jR" secondAttribute="bottom" constant="69" id="xlD-uU-bI8"/>
+                            <constraint firstItem="iLb-yK-bC7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GMj-tF-T3z"/>
+                            <constraint firstItem="Mz8-dg-ane" firstAttribute="top" secondItem="Kns-DJ-1Kq" secondAttribute="bottom" constant="95" id="HEW-10-Kob"/>
+                            <constraint firstItem="iLb-yK-bC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="166" id="P3o-3d-2jL"/>
+                            <constraint firstItem="Kns-DJ-1Kq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="RMG-y0-irG"/>
+                            <constraint firstItem="Kns-DJ-1Kq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lac-l9-Kvv"/>
+                            <constraint firstItem="Mz8-dg-ane" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uPu-zP-Zfg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>

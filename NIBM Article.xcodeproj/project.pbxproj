@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0BAD8156C6795513D225B0A6 /* Pods_NIBM_ArticleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DA083EFCD0CDCD9AEFE9B8 /* Pods_NIBM_ArticleTests.framework */; };
 		C64512992372B6E4003E6036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64512982372B6E4003E6036 /* AppDelegate.swift */; };
-		C645129B2372B6E4003E6036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645129A2372B6E4003E6036 /* ViewController.swift */; };
 		C645129E2372B6E4003E6036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C645129C2372B6E4003E6036 /* Main.storyboard */; };
 		C64512A02372B6EB003E6036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C645129F2372B6EB003E6036 /* Assets.xcassets */; };
 		C64512A32372B6EB003E6036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64512A12372B6EB003E6036 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,19 @@
 		C64512D82372C697003E6036 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64512D72372C697003E6036 /* Login.storyboard */; };
 		C651BC242372CF3E00EC2A6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC232372CF3E00EC2A6A /* LoginViewController.swift */; };
 		C651BC262372D10600EC2A6A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC252372D10600EC2A6A /* RegisterViewController.swift */; };
+		C651BC282373256A00EC2A6A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC272373256A00EC2A6A /* HomeTableViewController.swift */; };
+		C651BC2D2373259E00EC2A6A /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC2B2373259E00EC2A6A /* ArticleCell.swift */; };
+		C651BC2E2373259E00EC2A6A /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C651BC2C2373259E00EC2A6A /* ArticleCell.xib */; };
+		C651BC30237325D800EC2A6A /* PostArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC2F237325D800EC2A6A /* PostArticleViewController.swift */; };
+		C651BC32237325F400EC2A6A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC31237325F400EC2A6A /* ProfileViewController.swift */; };
+		C651BC352373317100EC2A6A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC332373317100EC2A6A /* UserViewController.swift */; };
+		C651BC362373317100EC2A6A /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C651BC342373317100EC2A6A /* UserViewController.xib */; };
+		C651BC392373345C00EC2A6A /* EditPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC372373345C00EC2A6A /* EditPostViewController.swift */; };
+		C651BC3A2373345C00EC2A6A /* EditPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C651BC382373345C00EC2A6A /* EditPostViewController.xib */; };
+		C651BC3C2373D7F700EC2A6A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC3B2373D7F700EC2A6A /* ImagePicker.swift */; };
+		C651BC3F2373DBD400EC2A6A /* ViewArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC3D2373DBD400EC2A6A /* ViewArticleViewController.swift */; };
+		C651BC402373DBD400EC2A6A /* ViewArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C651BC3E2373DBD400EC2A6A /* ViewArticleViewController.xib */; };
+		C651BC422374083500EC2A6A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651BC412374083500EC2A6A /* TabBarViewController.swift */; };
 		C95757442A3531B5541DC49B /* Pods_NIBM_Article.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95BA0C98CA42CD868B4ADF4 /* Pods_NIBM_Article.framework */; };
 		F8E9AAA2117422FF669D1284 /* Pods_NIBM_Article_NIBM_ArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3295CD391E9FC35F41A8B5F1 /* Pods_NIBM_Article_NIBM_ArticleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +60,6 @@
 		6FA3998AEC430E85AFA6E91F /* Pods-NIBM Article.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Article.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Article/Pods-NIBM Article.debug.xcconfig"; sourceTree = "<group>"; };
 		C64512952372B6E3003E6036 /* NIBM Article.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Article.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64512982372B6E4003E6036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C645129A2372B6E4003E6036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C645129D2372B6E4003E6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C645129F2372B6EB003E6036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C64512A22372B6EB003E6036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +74,19 @@
 		C64512D72372C697003E6036 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C651BC232372CF3E00EC2A6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C651BC252372D10600EC2A6A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C651BC272373256A00EC2A6A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		C651BC2B2373259E00EC2A6A /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		C651BC2C2373259E00EC2A6A /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		C651BC2F237325D800EC2A6A /* PostArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArticleViewController.swift; sourceTree = "<group>"; };
+		C651BC31237325F400EC2A6A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C651BC332373317100EC2A6A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		C651BC342373317100EC2A6A /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		C651BC372373345C00EC2A6A /* EditPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPostViewController.swift; sourceTree = "<group>"; };
+		C651BC382373345C00EC2A6A /* EditPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPostViewController.xib; sourceTree = "<group>"; };
+		C651BC3B2373D7F700EC2A6A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C651BC3D2373DBD400EC2A6A /* ViewArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewArticleViewController.swift; sourceTree = "<group>"; };
+		C651BC3E2373DBD400EC2A6A /* ViewArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewArticleViewController.xib; sourceTree = "<group>"; };
+		C651BC412374083500EC2A6A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		CC76F2A8DF1D6D67AC92E596 /* Pods-NIBM ArticleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM ArticleTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM ArticleTests/Pods-NIBM ArticleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DA083EFCD0CDCD9AEFE9B8 /* Pods_NIBM_ArticleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ArticleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95BA0C98CA42CD868B4ADF4 /* Pods_NIBM_Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,12 +158,24 @@
 			children = (
 				C64512D62372C680003E6036 /* Login */,
 				C64512982372B6E4003E6036 /* AppDelegate.swift */,
-				C645129A2372B6E4003E6036 /* ViewController.swift */,
 				C645129C2372B6E4003E6036 /* Main.storyboard */,
 				C645129F2372B6EB003E6036 /* Assets.xcassets */,
 				C64512A12372B6EB003E6036 /* LaunchScreen.storyboard */,
 				C64512D22372B7CD003E6036 /* GoogleService-Info.plist */,
 				C64512A42372B6EB003E6036 /* Info.plist */,
+				C651BC272373256A00EC2A6A /* HomeTableViewController.swift */,
+				C651BC2B2373259E00EC2A6A /* ArticleCell.swift */,
+				C651BC2C2373259E00EC2A6A /* ArticleCell.xib */,
+				C651BC2F237325D800EC2A6A /* PostArticleViewController.swift */,
+				C651BC31237325F400EC2A6A /* ProfileViewController.swift */,
+				C651BC332373317100EC2A6A /* UserViewController.swift */,
+				C651BC342373317100EC2A6A /* UserViewController.xib */,
+				C651BC372373345C00EC2A6A /* EditPostViewController.swift */,
+				C651BC382373345C00EC2A6A /* EditPostViewController.xib */,
+				C651BC3B2373D7F700EC2A6A /* ImagePicker.swift */,
+				C651BC3D2373DBD400EC2A6A /* ViewArticleViewController.swift */,
+				C651BC3E2373DBD400EC2A6A /* ViewArticleViewController.xib */,
+				C651BC412374083500EC2A6A /* TabBarViewController.swift */,
 			);
 			path = "NIBM Article";
 			sourceTree = "<group>";
@@ -294,10 +330,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C651BC402373DBD400EC2A6A /* ViewArticleViewController.xib in Resources */,
+				C651BC362373317100EC2A6A /* UserViewController.xib in Resources */,
 				C64512A32372B6EB003E6036 /* LaunchScreen.storyboard in Resources */,
 				C64512A02372B6EB003E6036 /* Assets.xcassets in Resources */,
 				C645129E2372B6E4003E6036 /* Main.storyboard in Resources */,
 				C64512D82372C697003E6036 /* Login.storyboard in Resources */,
+				C651BC2E2373259E00EC2A6A /* ArticleCell.xib in Resources */,
+				C651BC3A2373345C00EC2A6A /* EditPostViewController.xib in Resources */,
 				C64512D32372B7CD003E6036 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +466,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C651BC282373256A00EC2A6A /* HomeTableViewController.swift in Sources */,
+				C651BC352373317100EC2A6A /* UserViewController.swift in Sources */,
 				C651BC242372CF3E00EC2A6A /* LoginViewController.swift in Sources */,
-				C645129B2372B6E4003E6036 /* ViewController.swift in Sources */,
 				C64512992372B6E4003E6036 /* AppDelegate.swift in Sources */,
+				C651BC422374083500EC2A6A /* TabBarViewController.swift in Sources */,
+				C651BC2D2373259E00EC2A6A /* ArticleCell.swift in Sources */,
+				C651BC32237325F400EC2A6A /* ProfileViewController.swift in Sources */,
 				C651BC262372D10600EC2A6A /* RegisterViewController.swift in Sources */,
+				C651BC3C2373D7F700EC2A6A /* ImagePicker.swift in Sources */,
+				C651BC392373345C00EC2A6A /* EditPostViewController.swift in Sources */,
+				C651BC3F2373DBD400EC2A6A /* ViewArticleViewController.swift in Sources */,
+				C651BC30237325D800EC2A6A /* PostArticleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

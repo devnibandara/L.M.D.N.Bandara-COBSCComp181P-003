@@ -18,15 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-//        let userLoginStatus = UserDefaults.standard.bool(forKey: "LoggedIn")
-//        //print("sddsds\(userLoginStatus)")
-//        
-//        if(userLoginStatus)
-//        {
-//            let protectedPage = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarController")
-//            window!.rootViewController = protectedPage
-//            window!.makeKeyAndVisible()
-//        }
+        let userLoginStatus = UserDefaults.standard.bool(forKey: "LoggedIn")
+
+        
+        if(userLoginStatus)
+        {
+            let protectedPage = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViewController")
+            window!.rootViewController = protectedPage
+            window!.makeKeyAndVisible()
+        }
         return true
     }
 

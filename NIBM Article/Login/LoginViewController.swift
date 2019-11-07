@@ -40,8 +40,8 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.synchronize()
                 print("logged in")
                 
-//                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarController")
-//                self.present(vc, animated: true, completion: nil)
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViewController")
+                self.present(vc, animated: true, completion: nil)
                 
                 
                 //                let trial = HomeViewController ()
