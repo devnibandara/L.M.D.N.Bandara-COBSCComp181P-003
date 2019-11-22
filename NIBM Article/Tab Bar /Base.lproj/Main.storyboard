@@ -215,9 +215,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzi-r8-fzk">
-                                <rect key="frame" x="154" y="598" width="106" height="35"/>
+                                <rect key="frame" x="168.5" y="598" width="77" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Update Post"/>
+                                <state key="normal" title="Add Post"/>
                                 <connections>
                                     <action selector="btnUploadArticle:" destination="3u6-oW-7Sd" eventType="touchUpInside" id="j7y-Ax-PCj"/>
                                 </connections>

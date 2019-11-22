@@ -34,6 +34,9 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnC-0R-6zQ">
                     <rect key="frame" x="158.5" y="316" width="97" height="30"/>
                     <state key="normal" title="Change photo"/>
+                    <connections>
+                        <action selector="btnChangePhoto:" destination="-1" eventType="touchUpInside" id="6Um-bY-jwV"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXE-12-PPQ">
                     <rect key="frame" x="154" y="597" width="106" height="35"/>

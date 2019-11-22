@@ -36,6 +36,11 @@ class EditPostViewController: UIViewController {
         imgPhoto.kf.setImage(with: imageURL)
     }
     
+    
+    @IBAction func btnChangePhoto(_ sender: UIButton) {
+        self.imagePicker.present(from: sender)
+    }
+    
     @IBAction func btnUpdate(_ sender: Any) {
         
         

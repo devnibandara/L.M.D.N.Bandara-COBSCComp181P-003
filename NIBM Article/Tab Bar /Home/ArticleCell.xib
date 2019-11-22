@@ -41,10 +41,10 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ox-jT-gxg">
-                        <rect key="frame" x="20" y="161" width="258" height="42"/>
+                        <rect key="frame" x="20" y="161" width="343" height="47"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="42" id="A9G-Gp-GGw"/>
-                            <constraint firstAttribute="width" constant="258" id="uMU-Va-hFe"/>
+                            <constraint firstAttribute="height" constant="47" id="A9G-Gp-GGw"/>
+                            <constraint firstAttribute="width" constant="343" id="uMU-Va-hFe"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
@@ -69,7 +69,7 @@
                 <constraints>
                     <constraint firstItem="iy5-ad-8eX" firstAttribute="top" secondItem="d4b-cK-3kd" secondAttribute="bottom" constant="8" id="AaV-5E-inI"/>
                     <constraint firstItem="3ox-jT-gxg" firstAttribute="top" secondItem="iy5-ad-8eX" secondAttribute="bottom" constant="2" id="OLu-yB-zVw"/>
-                    <constraint firstItem="SJL-66-xq0" firstAttribute="top" secondItem="3ox-jT-gxg" secondAttribute="bottom" constant="11" id="Qa7-f8-YJl"/>
+                    <constraint firstItem="SJL-66-xq0" firstAttribute="top" secondItem="3ox-jT-gxg" secondAttribute="bottom" constant="6" id="Qa7-f8-YJl"/>
                     <constraint firstItem="d4b-cK-3kd" firstAttribute="leading" secondItem="xi3-Q7-YcA" secondAttribute="trailing" constant="54" id="Rth-nH-jDc"/>
                 </constraints>
             </tableViewCellContentView>

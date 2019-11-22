@@ -28,17 +28,18 @@ class LoginViewController: UIViewController {
             {
                 var user_email:String?
                 var UID: String?
-                if let user = user {
-                    _ = user.user.displayName
-                    user_email = user.user.email
-                    UID = user.user.uid
+                if let userTemp = user {
+                    //_ = user.user.displayName
+                    user_email = userTemp.user.email
+                    UID = userTemp.user.uid
+                    
                 }
                 
                 UserDefaults.standard.set(user_email, forKey: "LoggedUser")
                 UserDefaults.standard.set(UID, forKey: "UserUID")
                 UserDefaults.standard.set(true, forKey: "LoggedIn")
                 UserDefaults.standard.synchronize()
-                print("logged in")
+                //print("logged in")
                 
                 let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViewController")
                 self.present(vc, animated: true, completion: nil)

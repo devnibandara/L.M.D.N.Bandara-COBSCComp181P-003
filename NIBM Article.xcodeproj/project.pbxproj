@@ -131,6 +131,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C619A9F62387B88E001CBF9B /* Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				C645129C2372B6E4003E6036 /* Main.storyboard */,
+				C651BC412374083500EC2A6A /* TabBarViewController.swift */,
+				C619A9F92387B8CA001CBF9B /* Profile */,
+				C619A9F82387B8BF001CBF9B /* Add New Post */,
+				C619A9F72387B8B6001CBF9B /* Home */,
+			);
+			path = "Tab Bar ";
+			sourceTree = "<group>";
+		};
+		C619A9F72387B8B6001CBF9B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C651BC272373256A00EC2A6A /* HomeTableViewController.swift */,
+				C651BC2B2373259E00EC2A6A /* ArticleCell.swift */,
+				C651BC2C2373259E00EC2A6A /* ArticleCell.xib */,
+				C651BC332373317100EC2A6A /* UserViewController.swift */,
+				C651BC342373317100EC2A6A /* UserViewController.xib */,
+				C651BC372373345C00EC2A6A /* EditPostViewController.swift */,
+				C651BC382373345C00EC2A6A /* EditPostViewController.xib */,
+				C651BC3D2373DBD400EC2A6A /* ViewArticleViewController.swift */,
+				C651BC3E2373DBD400EC2A6A /* ViewArticleViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C619A9F82387B8BF001CBF9B /* Add New Post */ = {
+			isa = PBXGroup;
+			children = (
+				C651BC2F237325D800EC2A6A /* PostArticleViewController.swift */,
+			);
+			path = "Add New Post";
+			sourceTree = "<group>";
+		};
+		C619A9F92387B8CA001CBF9B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C651BC31237325F400EC2A6A /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		C645128C2372B6E3003E6036 = {
 			isa = PBXGroup;
 			children = (
@@ -156,26 +200,14 @@
 		C64512972372B6E3003E6036 /* NIBM Article */ = {
 			isa = PBXGroup;
 			children = (
+				C619A9F62387B88E001CBF9B /* Tab Bar  */,
 				C64512D62372C680003E6036 /* Login */,
 				C64512982372B6E4003E6036 /* AppDelegate.swift */,
-				C645129C2372B6E4003E6036 /* Main.storyboard */,
 				C645129F2372B6EB003E6036 /* Assets.xcassets */,
 				C64512A12372B6EB003E6036 /* LaunchScreen.storyboard */,
 				C64512D22372B7CD003E6036 /* GoogleService-Info.plist */,
 				C64512A42372B6EB003E6036 /* Info.plist */,
-				C651BC272373256A00EC2A6A /* HomeTableViewController.swift */,
-				C651BC2B2373259E00EC2A6A /* ArticleCell.swift */,
-				C651BC2C2373259E00EC2A6A /* ArticleCell.xib */,
-				C651BC2F237325D800EC2A6A /* PostArticleViewController.swift */,
-				C651BC31237325F400EC2A6A /* ProfileViewController.swift */,
-				C651BC332373317100EC2A6A /* UserViewController.swift */,
-				C651BC342373317100EC2A6A /* UserViewController.xib */,
-				C651BC372373345C00EC2A6A /* EditPostViewController.swift */,
-				C651BC382373345C00EC2A6A /* EditPostViewController.xib */,
 				C651BC3B2373D7F700EC2A6A /* ImagePicker.swift */,
-				C651BC3D2373DBD400EC2A6A /* ViewArticleViewController.swift */,
-				C651BC3E2373DBD400EC2A6A /* ViewArticleViewController.xib */,
-				C651BC412374083500EC2A6A /* TabBarViewController.swift */,
 			);
 			path = "NIBM Article";
 			sourceTree = "<group>";

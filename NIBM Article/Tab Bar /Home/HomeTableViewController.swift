@@ -72,9 +72,11 @@ class HomeTableViewController: UITableViewController {
         return cell
     }
     
+    ////////////////////////////////////////////////////////////////
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        print("ereerererer")
+        //print("ereerererer")
         let loggedUserUid = UserDefaults.standard.string(forKey: "UserUID")
         let tempUID = items[indexPath.row]["userUID"].stringValue
         if loggedUserUid == tempUID{

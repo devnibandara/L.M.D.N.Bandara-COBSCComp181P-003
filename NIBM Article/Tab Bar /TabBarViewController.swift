@@ -20,7 +20,7 @@ class TabBarViewController:  UITabBarController, UITabBarControllerDelegate{
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         if viewController.isKind(of: ProfileViewController.self) {
-            print("dddddddddddddddddddd")
+            //print("dddddddddddddddddddd")
             BioMetricAuthenticator.authenticateWithBioMetrics(reason: "Authentication required to access this section") { (result) in
                 
                 switch result {

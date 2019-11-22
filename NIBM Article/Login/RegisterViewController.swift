@@ -59,7 +59,7 @@ class RegisterViewController: UIViewController {
                         let vc = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController")
                         self.present(vc, animated: true, completion: nil)
                         
-                        self.showAlert(message: "Signup Successful!")
+                        //self.showAlert(message: "Signup Successful!")
                         
                         
                         
